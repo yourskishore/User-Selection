@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import {setVisibilityFilter, toggleTodo} from '../actions'
-import TodoList from '../components/TodoList'
+import UserList from '../components/SelectionList'
 
 const mapStateToProps = state => ({
   todos: state.todos
@@ -14,4 +14,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(TodoList)
+)(UserList)

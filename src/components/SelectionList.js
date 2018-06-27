@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Todo from './Todo'
+import Selection from './Selection'
 import {setVisibilityFilter} from "../actions";
 
 const UserList = ({ todos, toggleTodo }) => {
@@ -8,7 +8,7 @@ const UserList = ({ todos, toggleTodo }) => {
   return (
     <ul>
       {todos.map(todo => {
-        return <Todo
+        return <Selection
         key={todo.id}
         {...todo}
         onClick={() => {toggleTodo(todo.id, todo.completed); setVisibilityFilter('HIDE') } }

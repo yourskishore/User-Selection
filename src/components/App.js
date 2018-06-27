@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import Search from '../containers/Search'
-import VisibleTodoList from '../containers/VisibleTodoList'
+import VisibleTodoList from '../containers/VisibleSelectionList'
 import VisibleUserList from '../containers/VisibleUserList'
 
 const App = () => (

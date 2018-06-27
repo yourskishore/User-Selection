@@ -6,32 +6,32 @@
     },
     {
       "id": 1,
-      "text": "Apple",
+      "text": "List Item 1",
       "completed": false
     },
     {
       "id": 2,
-      "text": "Banana",
+      "text": "List Item 2",
       "completed": false
     },
     {
       "id": 3,
-      "text": "Orange",
+      "text": "List Item 3",
       "completed": false
     },
     {
       "id": 4,
-      "text": "Mango",
+      "text": "List Item 4",
       "completed": false
     },
     {
       "id": 5,
-      "text": "Kiwi",
+      "text": "List Item 5",
       "completed": false
     },
     {
       "id": 6,
-      "text": "Lemon",
+      "text": "List Item 6",
       "completed": false
     }
   ]

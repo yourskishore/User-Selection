@@ -1,6 +1,6 @@
 let mydata = require('./data.json')
 
-const todos = (state = mydata, action) => {
+const selections = (state = mydata, action) => {
   switch (action.type) {
     case 'SEARCH':
       if (action.text ){
@@ -34,4 +34,4 @@ const todos = (state = mydata, action) => {
   }
 }
 
-export default todos
+export default selections
